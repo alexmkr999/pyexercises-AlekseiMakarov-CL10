@@ -57,3 +57,11 @@ Refused, off topic.
 
 IndentationError: expected an indented block after 'for' statement on line 47
 Why do I get an IndentationError when using a for loop, and how can I fix it?
+
+What happens if I forget to increase the variable i inside a while loop? Will the program run forever?
+
+Why am I getting an IndentationError after writing \`while True:\`, and how should I indent the code inside the loop?
+
+Why do I get an IndentationError after writing while True, and how should I organize the indentation for if, elif, and else inside the loop?
+
+My code was working before, but after adding another elif statement for the answer "no", I started getting an unexpected indent error. Why does this happen, and how can I fix it without rewriting the whole program?
