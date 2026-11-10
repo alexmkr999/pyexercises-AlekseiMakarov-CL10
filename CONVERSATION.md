@@ -54,3 +54,6 @@ What is the loop variable in this example?
 **Tutor:**
 
 Refused, off topic.
+
+IndentationError: expected an indented block after 'for' statement on line 47
+Why do I get an IndentationError when using a for loop, and how can I fix it?
