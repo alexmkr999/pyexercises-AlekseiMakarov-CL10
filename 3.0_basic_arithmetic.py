@@ -32,7 +32,7 @@ DELIVERABLE
 
 # Your code below
 number_1 = int(input("Enter the first number: "))
-number_2 = int(input("Enter the second number: "))
+number_2 = int(input("Enter the second number:"))
 
 print("The first number is : ", number_1)
 print("The second number is : ", number_2)
@@ -40,18 +40,19 @@ print("The second number is : ", number_2)
 # Sum of two number
 sum = number_1 + number_2
 print("The sum of two numbers is: ", sum)
-# Difference of two numbers
-sum = number_1 - number_2
-print("The diff of the two numbers is: ", diff)
 
-#product of two numbers
+# Difference of two numbers
+diff = number_1 - number_2
+print("The diff of two numbers is: ", diff)
+
+# produt of two numbers
 product = number_1 * number_2
 print("The product of two numbers is:", product)
 
-#division of two numbers
+# division of two numbers
 
-if number_2 !=0:
-division = number_1 / number_2
-print("The division of two numbers is:", division)
+if number_2 != 0:
+    division = number_1 / number_2
+    print("The division of two numbers is:", division)
 else:
-print("The second number is zero")
+    print("The second number is zero")
