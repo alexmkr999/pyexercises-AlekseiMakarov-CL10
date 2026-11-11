@@ -55,13 +55,74 @@ What is the loop variable in this example?
 
 Refused, off topic.
 
-IndentationError: expected an indented block after 'for' statement on line 47
-Why do I get an IndentationError when using a for loop, and how can I fix it?
 
-What happens if I forget to increase the variable i inside a while loop? Will the program run forever?
+---
+## 2026-11-11 15:01, in .
 
-Why am I getting an IndentationError after writing \`while True:\`, and how should I indent the code inside the loop?
+**Me:** Why does the input() function always return a string, even when I enter a number like my age?
 
-Why do I get an IndentationError after writing while True, and how should I organize the indentation for if, elif, and else inside the loop?
+**Tutor:**
 
-My code was working before, but after adding another elif statement for the answer "no", I started getting an unexpected indent error. Why does this happen, and how can I fix it without rewriting the whole program?
+The function `input()` always returns a string because it reads raw text from the user.
+
+```python
+# TODO: Convert the user's input to an integer
+age_text = input("Enter your age: ")
+age = # TODO: convert age_text to an integer here
+print("Your age is", age)
+```
+
+What function converts a string to an integer?
+
+---
+## 2026-11-11 15:02, in .
+
+**Me:** What happens if I try to add 1 to the age entered by user?
+
+**Tutor:**
+
+Type conversion.
+
+```python
+age_text = input("Enter your age: ")
+age = int(age_text)  # convert string to integer
+next_year_age = age + 1
+print("Next year you will be", next_year_age)
+```
+
+What error do you get if you forget the conversion to int?
+
+---
+## 2026-11-11 15:04, in .
+
+**Me:** If I forget to convert the input to an integer, Python will give me a TypeError because input() returns a string, and I cannot add the number 1 to the string
+
+**Tutor:**
+
+Exactly right.
+
+```python
+age_text = input("Enter your age: ")
+# TODO: uncomment the next line to see the error
+# next_year_age = age_text + 1
+```
+
+What must you do before you can add 1 to the value returned by input()?
+
+---
+## 2026-11-11 15:09, in .
+
+**Me:** What happens if I enter numbers or special characters instead of letters when the program asks for my name? Will it still work?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-11 15:10, in .
+
+**Me:** Thank you
+
+**Tutor:**
+
+Refused, off topic.
