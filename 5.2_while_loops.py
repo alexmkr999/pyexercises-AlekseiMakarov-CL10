@@ -53,8 +53,3 @@ while True:
     else:
         print("Please enter yes or no.")
 
- elif answer.strip().lower() == "no":
-        print("You chose not to continue.")
-        break
-else:
-        print("Invalid input. Please enter 'yes' or 'no'.")
