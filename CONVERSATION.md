@@ -217,3 +217,67 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-11 15:31, in .
+
+**Me:** How can I get the first item from a list in Python?
+
+**Tutor:**
+
+Accessing the first element of a list.
+
+```python
+# A list of toy items
+items = ["apple", "banana", "cherry"]
+
+# TODO: get the first item here
+first_item = ______
+
+print(first_item)  # should print "apple"
+```
+
+What function returns the first element when you give it the list?
+
+---
+## 2026-11-11 15:32, in .
+
+**Me:** How can I sort a list of numbers in Python?
+
+**Tutor:**
+
+Sorting a list of numbers.
+
+```python
+# A toy list of numbers
+numbers = [3, 1, 4, 1, 5, 9, 2]
+
+# TODO: sort the list in-place
+______
+
+print(numbers)  # should print [1, 1, 2, 3, 4, 5, 9]
+```
+
+Which method sorts the list directly?
+
+---
+## 2026-11-11 15:33, in .
+
+**Me:** What does the pop() function do in a Python list?
+
+**Tutor:**
+
+Removing and returning an item from a list.
+
+```python
+# A toy list
+shopping = ["milk", "eggs", "bread", "apples"]
+
+# TODO: remove and return the last item
+last_item = ______
+
+print(last_item)   # should print "apples"
+print(shopping)    # should print ["milk", "eggs", "bread"]
+```
+
+What is the default index used by pop() when no argument is given?
