@@ -352,3 +352,91 @@ print(campaign)  # prints the dictionary without "status"
 ```
 
 What are the two arguments you pass to `pop`?
+
+---
+## 2026-11-11 15:38, in .
+
+**Me:** what is a for loop in Python?
+
+**Tutor:**
+
+A for loop repeats a block of code for each item in a sequence (list, string, range, etc.).
+
+```python
+# Example: print every fruit in a list
+fruits = ["apple", "banana", "cherry"]
+
+for fruit in fruits:
+    print(fruit)   # TODO: replace this line with your own action
+```
+
+What is the correct way to loop over the keys of a dictionary called `campaign_data`?
+
+---
+## 2026-11-11 15:39, in .
+
+**Me:** what does range() do in Python?
+
+**Tutor:**
+
+`range()` generates a sequence of numbers, often used to repeat code a set number of times.
+
+```python
+# Example: print numbers 0, 1, 2
+for number in range(3):
+    print(number)   # TODO: replace this line with your own action
+```
+
+Which argument of `range()` controls the length of the sequence?
+
+---
+## 2026-11-11 15:40, in .
+
+**Me:** what does len() do in Python?
+
+**Tutor:**
+
+`len()` returns the number of items contained in a sequence (list, string, tuple, etc.).
+
+```python
+# Example: get the length of a list
+campaigns = ["summer", "winter", "spring"]
+count = len(campaigns)   # TODO: print the value of count
+```
+
+What is the type of the value returned by `len()`?
+
+---
+## 2026-11-11 15:41, in .
+
+**Me:** how do I count the letters in a name?
+
+**Tutor:**
+
+`len()` counts the characters in a string.
+
+```python
+name = "Alexandra"
+
+letter_count = len(name)   # TODO: print letter_count
+```
+
+What function gives the length of the string stored in the variable `campaign_name`?
+
+---
+## 2026-11-11 15:42, in .
+
+**Me:** how do i print each item in a list?
+
+**Tutor:**
+
+A for loop prints each item in a list.
+
+```python
+items = ["ad1", "ad2", "ad3"]
+
+for item in items:
+    print(item)   # TODO: replace print with your own action
+```
+
+Which keyword introduces the block that runs for every element?
