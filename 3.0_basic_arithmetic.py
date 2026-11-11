@@ -56,3 +56,4 @@ if number_2 != 0:
     print("The division of two numbers is:", division)
 else:
     print("The second number is zero")
+    
