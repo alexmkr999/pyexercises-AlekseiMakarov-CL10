@@ -281,3 +281,74 @@ print(shopping)    # should print ["milk", "eggs", "bread"]
 ```
 
 What is the default index used by pop() when no argument is given?
+
+---
+## 2026-11-11 15:35, in .
+
+**Me:** What is a dictionary in Python?
+
+**Tutor:**
+
+A dictionary is a collection of key-value pairs that lets you look up a value by its key.
+
+```python
+# Example dictionary
+product_prices = {
+    "shoes": 59.99,   # key "shoes", value 59.99
+    "hat": 24.50,     # key "hat", value 24.50
+    "bag": 89.00      # key "bag", value 89.00
+}
+
+# TODO: print the price of the hat
+print(____)
+```
+
+What function do you call on a dictionary to get the value that belongs to the key `"hat"`?
+
+---
+## 2026-11-11 15:36, in .
+
+**Me:** How do I print a dictionary?
+
+**Tutor:**
+
+Printing a dictionary shows its key-value pairs exactly as they are stored.
+
+```python
+# Example dictionary
+campaign = {
+    "name": "summer_sale",
+    "clicks": 1250,
+    "impressions": 50000
+}
+
+# TODO: print the whole dictionary
+print(____)
+```
+
+Which built-in function do you use to print any Python object?
+
+---
+## 2026-11-11 15:36, in .
+
+**Me:** How do I remove an item from a dictionary?
+
+**Tutor:**
+
+Removing an item from a dictionary uses the `pop` method with the key you want to remove.
+
+```python
+# Example dictionary
+campaign = {
+    "id": 42,
+    "budget": 5000,
+    "status": "active"
+}
+
+# TODO: remove the key "status" and keep its value
+value = campaign.____(____)
+print(value)  # prints the removed value
+print(campaign)  # prints the dictionary without "status"
+```
+
+What are the two arguments you pass to `pop`?
