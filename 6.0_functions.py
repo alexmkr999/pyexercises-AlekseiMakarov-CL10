@@ -5,12 +5,11 @@ WHAT THE PROGRAM MUST DO
     4.0, then call it three times with different inputs and display the three results.
 
 ANSWER THESE FIRST, in comments at the top of your file
-    1. What goes in? - The function receives 2 numbers: num1 and num2
-    2. What happens to it? -- The function adds the two numbers together 
-    3. What comes out?  (what your function returns) -- The function returns the sum of the two numbers 
+    1. What goes in?
+    2. What happens to it? 
+    3. What comes out?  (what your function returns)
     4. What is your function called, and does its name say what it does without reading
-       the code? -- My function is called add_numbers. Yes, its name clearly explains what it does. 
-
+       the code? 
 WHAT THE AI CANNOT KNOW
     What is worth computing about your data, and what to call it. A function named
     "process" or "do_stuff" fails this exercise even if it works.
@@ -27,15 +26,25 @@ DELIVERABLE
 """
 
 # 1. In:
+#  # The function receives two numbers: num1 and num2.
+
 # 2. Process:
+# The function adds the two numbers together.
+
 # 3. Out:
+# The function returns the sum of the two numbers.
+
 # 4. My function name, and why return rather than print:
+# My function is called add_numbers.
+# The name clearly describes what the function does.
+# Return allows us to store and reuse the result.
+# Print only displays the result on the screen.
 
 
 # Your code below
 
-number_1 = 10
-number_2 = 20
+number_1 = 9
+number_2 = 10
 
 sum = number_1 + number_2
 print("The sum of", number_1, "and", number_2, "is:", sum)
@@ -60,7 +69,7 @@ def add_numbers(num1, num2):
     
 
 
-sum = add_numbers(10, 20)
+sum = add_numbers(9, 10)
 
 print(sum)
 
