@@ -1065,3 +1065,44 @@ print(result)
 ```
 
 What happens if you call `calculate_total` and do not store its return value?
+
+---
+## 2026-11-16 16:18, in .
+
+**Me:** what does return True mean in Python?
+
+**Tutor:**
+
+A return statement that sends the boolean value True back to the caller.
+
+```python
+def is_even(number):
+    # TODO: write a condition that checks if number is even
+    # TODO: return True if it is, otherwise return False
+    pass
+
+# Example call (you can test this)
+print(is_even(4))  # Should print True
+```
+
+What does the function return when the argument is 7?
+
+---
+## 2026-11-16 16:19, in .
+
+**Me:** can one function call another function in Python?
+
+**Tutor:**
+
+Yes, a function can call another function inside its body.
+
+```python
+def add(a, b):
+    return a + b
+
+# --- cut by the tutor: One function per answer. The next one is yours to write ---
+```
+
+Which function is called inside `calculate_total`?
+
+*Cut by the tutor: One function per answer. The next one is yours to write.*

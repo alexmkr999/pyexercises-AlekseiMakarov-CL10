@@ -29,25 +29,43 @@ DELIVERABLE
 """
 
 # 1. In:
+# The program receives an integer number.
+
 # 2. Process, function by function:
+# is_positive checks if the number is greater than zero.
+# is_negative checks if the number is less than zero.
+# is_zero checks if the number equals zero.
+# detailed_message uses these functions to describe the number.
+
 # 3. Out:
+# The program returns a message saying whether the
+# number is positive, negative, or zero.
+
 # 4. The question my fourth function answers:
+# Is the number positive, negative, or zero?
+# Using three small functions makes the code easier
+# to understand and test.
+
+# Tests for the three small functions:
+# is_positive(5) -> True
+# is_negative(-3) -> True
+# is_zero(0) -> True
 
 
 # Your code below
-number = -4
+number = 8
 if number > 0:
     print("The number is positive")
 else:
     print("The number is negative")
 
-number = 5
+number = -13
 if number > 0:
     print("The number is positive")
 else:
     print("The number is negative")
 
-number = 9
+number = -2
 if number > 0:
     print("The number is positive")
 else:
