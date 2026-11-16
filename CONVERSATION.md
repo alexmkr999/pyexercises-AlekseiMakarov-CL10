@@ -1234,3 +1234,54 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-16 18:12, in .
+
+**Me:** what happens when I combine VIEW and EDIT?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-16 18:12, in .
+
+**Me:** what does the ~ operator do in python?
+
+**Tutor:**
+
+The bitwise NOT operator flips every bit of an integer (0 becomes 1, 1 becomes 0).
+
+```python
+# TODO: try these lines one at a time
+x = 5          # binary 0101
+y = ~x         # binary 1010  → decimal -6
+z = ~(-6)      # binary 0101  → decimal 5
+```
+
+What integer do you get when you run `~(-3)`?
+
+---
+## 2026-11-16 18:13, in .
+
+**Me:** wht do we use the & operator to check permissions?
+
+**Tutor:**
+
+Bitwise AND is used to test whether specific permission bits are set.
+
+```python
+# TODO: set READ, WRITE, EXECUTE constants
+READ    = 0b001
+WRITE   = 0b010
+EXECUTE = 0b100
+
+# TODO: create a permission mask (e.g. user can read and execute)
+mask = READ | EXECUTE
+
+# TODO: check if WRITE is allowed
+has_write = mask & WRITE == WRITE
+```
+
+Which operator combines the individual permission bits into the mask?
