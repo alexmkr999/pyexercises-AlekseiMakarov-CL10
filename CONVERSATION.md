@@ -1285,3 +1285,30 @@ has_write = mask & WRITE == WRITE
 ```
 
 Which operator combines the individual permission bits into the mask?
+
+---
+## 2026-11-16 18:21, in .
+
+**Me:** why does my code use try and except?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-16 18:21, in .
+
+**Me:** what happens when i enter zero in my program?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-16 18:21, in .
+
+**Me:** why does my code use range(3)?
+
+**Tutor:**
+
+Refused, off topic.
