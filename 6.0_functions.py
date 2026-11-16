@@ -5,11 +5,11 @@ WHAT THE PROGRAM MUST DO
     4.0, then call it three times with different inputs and display the three results.
 
 ANSWER THESE FIRST, in comments at the top of your file
-    1. What goes in?  (what your function receives)
-    2. What happens to it?
-    3. What comes out?  (what your function returns)
+    1. What goes in? - The function receives 2 numbers: num1 and num2
+    2. What happens to it? -- The function adds the two numbers together 
+    3. What comes out?  (what your function returns) -- The function returns the sum of the two numbers 
     4. What is your function called, and does its name say what it does without reading
-       the code?
+       the code? -- My function is called add_numbers. Yes, its name clearly explains what it does. 
 
 WHAT THE AI CANNOT KNOW
     What is worth computing about your data, and what to call it. A function named
